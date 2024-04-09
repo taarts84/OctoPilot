@@ -6,8 +6,8 @@ GO
 CREATE   PROCEDURE [dbo].[GetAllWidgets]
 AS
 BEGIN
---comment
 	SELECT RecordID,
+	Octo_widget,
            Description 
 	FROM Widgets
 END
